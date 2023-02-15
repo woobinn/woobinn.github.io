@@ -19,7 +19,6 @@ module.exports = {
     },
     social: {
       github: ``, // `https://github.com/woobinn`,
-      linkedIn: ``, // ``,
       email: ``, // `lee@leewoobin.com`,
     },
   },
