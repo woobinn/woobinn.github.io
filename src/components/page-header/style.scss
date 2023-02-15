@@ -12,10 +12,11 @@
     align-items: center;
     justify-content: space-between;
     font-family: 'montserrat';
+    font-style: 'italic';
     @include content-max-width;
 
     .link {
-      font-weight: 700;
+      font-weight: 300;
       font-size: 17px;
       color: var(--primary-text-color);
 
