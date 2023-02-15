@@ -42,8 +42,14 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.09 ~',
-        activity: 'Simon Fraser University',
+        date: '2017. 09 ~ ',
+        activity: 'Vancouver, BC',
+        links: {
+        },
+      },      
+      {
+        date: '2008 ~ 2017. 09',
+        activity: 'Bangkok, Thailand',
         links: {
         },
       },
