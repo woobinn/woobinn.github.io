@@ -15,12 +15,12 @@ module.exports = {
     bio: {
       role: `Student`,
       description: ['Human Rights in North Korea', 'World Economics', 'History'],
-      thumbnail: 'sample.png', // Path to the image in the 'asset' folder
+      thumbnail: 'https://cdn.discordapp.com/attachments/940436037174444074/1075328839951069234/b06050858310c9ee1fe8933790a53a68-sticker.png', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://github.com/woobinn`,
-      linkedIn: ``, // `https://linkedin.com/woobin-lee`,
-      email: ``, // `lee@leewoobin.com`,
+      github: `https://github.com/woobinn`, // `https://github.com/woobinn`,
+      linkedIn: `https://linkedin.com/woobin-lee`, // `https://linkedin.com/woobin-lee`,
+      email: `lee@leewoobin.com`, // `lee@leewoobin.com`,
     },
   },
 
