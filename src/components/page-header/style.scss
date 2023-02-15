@@ -23,16 +23,25 @@
 
       @include md {
         font-weight: 700;
-        font-size: 17px;
+        font-size: 15px;
       }
     }
 
     .trailing-section {
       display: flex;
       align-items: center;
+      font-style: normal;
+      font-family: 'Helvetica';
+
+
 
       .link {
         margin-right: 10px;
+      }
+
+      @include md {
+        font-weight: 700;
+        font-size: 15px;
       }
 
 
