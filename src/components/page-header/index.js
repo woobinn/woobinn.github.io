@@ -1,7 +1,7 @@
 import { Link, StaticQuery, graphql } from 'gatsby';
 import React from 'react';
 import Post from '../../models/post';
-import PostSearch from '../post-search';
+// import PostSearch from '../post-search'; //
 import './style.scss';
 
 function PageHeader({ siteTitle }) {
@@ -36,9 +36,6 @@ function PageHeader({ siteTitle }) {
               <Link className="link" to="/posts">
                 posts
               </Link>
-              <PostSearch
-                posts={data.allMarkdownRemark.edges.map(({ node }) => new Post(node, true))}
-              />
             </div>
           </div>
         </header>
