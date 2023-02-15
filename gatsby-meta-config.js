@@ -19,6 +19,7 @@ module.exports = {
     },
     social: {
       github: ``, // `https://github.com/woobinn`,
+      linkedIn: ``, // `https://linkedin.com/woobin-lee`,
       email: ``, // `lee@leewoobin.com`,
     },
   },
