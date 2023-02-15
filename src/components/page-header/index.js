@@ -27,7 +27,6 @@ function PageHeader({ siteTitle }) {
       render={(data) => (
         <header className="page-header-wrapper">
           <div className="page-header">
-            <i>
             <div className="front-section">
               <Link className="link" to="/">
                 {siteTitle}
@@ -37,8 +36,10 @@ function PageHeader({ siteTitle }) {
               <Link className="link" to="/posts">
                 posts
               </Link>
+              <PostSearch
+                posts={data.allMarkdownRemark.edges.map(({ node }) => new Post(node, true))}
+              />
             </div>
-            </i>
           </div>
         </header>
       )}
