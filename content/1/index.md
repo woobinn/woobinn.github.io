@@ -2,7 +2,7 @@
 emoji: 🇰🇵
 title: Examining North Korea's Economic Struggles During the COVID-19 and Famine Crisis
 date: '2022-09-11 02:24:00'
-author: {author}
+author: leewoobin
 tags: north-korea south-korea covid-19-north-korea dprk-covid dprk
 categories: featured N.Korea Economics
 ---
