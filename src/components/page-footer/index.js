@@ -7,7 +7,7 @@ function PageFooter({ author }) {
       <p className="page-footer">
         © {new Date().getFullYear()}
         &nbsp;
-        <a href="lee@leewoobin.com">{author}</a>
+        <a href="mailto:lee@leewoobin.com">{author}</a>
       </p>
     </footer>
   );
