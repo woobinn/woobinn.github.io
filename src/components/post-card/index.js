@@ -6,6 +6,7 @@ function PostCard({ post }) {
   const { id, slug, title, excerpt, date, categories } = post;
   return (
     <div className="post-card-wrapper">
+      <link rel="preload" as="style" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css"/>
       <Link className="post-card" key={id} to={slug}>
         <div className="title">{title}</div>
         <p className="description" dangerouslySetInnerHTML={{ __html: excerpt }} />
