@@ -1,3 +1,5 @@
+@use '../../styles/variables'as *;
+
 .post-card-column-wrapper {
   display: flex;
   justify-content: center;
@@ -17,7 +19,7 @@
     .more-post-card-button {
       height: 40px;
       font-weight: 500;
-      font-family: $font-family;
+      font-family: font-family;
       font-size: 15px;
       background-color: var(--button-background-color);
       color: var(--tab-hover-text-color);
